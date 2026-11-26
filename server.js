@@ -5,7 +5,7 @@ import crypto from "node:crypto";
 const PORT = process.env.PORT || 3000;
 const SCRIPT_URL =
   process.env.SCRIPT_URL ||
-  "https://gist.githubusercontent.com/parthsahni88995-png/ccc9773e60279a8a757a0384362a09a2/raw/765856ba3383b2ab812c5031c2ed8c6696839ed7/gistfile1.txt";
+  "";
 
 const CACHE_TTL_MS = 60_000;          // script cache (gist down ho to bhi chalega)
 const RATE_LIMIT = 30;                // requests per window per IP on /load
